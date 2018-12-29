@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>3E40881C-91CE-4B81-B17A-8F16CEF7DE54</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>km</string>
+			<key>text</key>
+			<string>Search KM for '{query}'</string>
+			<key>url</key>
+			<string>http://km.oa.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>469A1FE7-076F-464D-BABD-021DC5673531</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>npm</string>
+			<key>text</key>
+			<string>Search npm for '{query}'</string>
+			<key>url</key>
+			<string>https://www.npmjs.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>B9AA1A83-01EC-423A-A119-B2D5C868CF1F</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>git</string>
+			<key>text</key>
+			<string>Search github for '{query}'</string>
+			<key>url</key>
+			<string>https://github.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
